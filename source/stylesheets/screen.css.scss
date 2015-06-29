@@ -618,3 +618,36 @@ html, body {
     margin-top: $main-padding;
   }
 }
+
+
+/*
+|------------------------------------------------------------------------------------
+| KOSSA CSS
+|------------------------------------------------------------------------------------
+*/
+.content>h1, 
+.content>h2, 
+.content>h3, 
+.content>h4, 
+.content>h5, 
+.content>h6, 
+.content>p, 
+.content>table, 
+.content>ul, 
+.content>ol, 
+.content>aside, 
+.content>dl{
+    margin-right: 0;
+}
+.content pre, 
+.content blockquote{
+    float: none;
+    width: 100%;
+}
+.page-wrapper .dark-box{
+    width: 0;
+}
+
+pre + p, blockquote + p{
+    margin-top: 20px!important;
+}
